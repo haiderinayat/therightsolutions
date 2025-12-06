@@ -1,4 +1,5 @@
 import { Separator } from "@/components/ui/separator";
+import logo from "@/assets/logo.png";
 
 const footerLinks = {
   Products: [
@@ -30,20 +31,24 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
           {/* Brand */}
           <div className="lg:col-span-2">
-            <div className="flex items-center gap-2 mb-6">
-              <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-serif font-bold text-lg">R</span>
-              </div>
-              <span className="font-serif text-xl font-semibold">
-                The Right Solutions
-              </span>
+            <div className="mb-6">
+              <img 
+                src={logo} 
+                alt="The Right Solutions Corporation" 
+                className="h-14 w-auto brightness-0 invert"
+              />
             </div>
-            <p className="text-background/70 mb-6 max-w-sm">
+            <p className="text-background/70 mb-4 max-w-sm">
               A premium developer of private label health and beauty care products, 
-              serving major retailers and distributors with quality solutions.
+              serving major retailers and distributors with quality solutions since 1995.
             </p>
+            <div className="text-sm text-background/60 space-y-1 mb-4">
+              <p>100 Delta Park Blvd, Brampton, ON L6T 5E7</p>
+              <p>Phone: (289) 499-7832</p>
+              <p>customerservice@therightsolutions.ca</p>
+            </div>
             <p className="text-sm text-background/50">
-              © {new Date().getFullYear()} The Right Solutions. All rights reserved.
+              © {new Date().getFullYear()} The Right Solutions Corporation. All rights reserved.
             </p>
           </div>
 
