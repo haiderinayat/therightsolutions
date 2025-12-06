@@ -48,7 +48,7 @@ const AboutSummary = () => {
               Your Trusted Partner in Personal Care Manufacturing
             </h2>
             <p className="text-lg text-primary-foreground/80 mb-6">
-              The Right Solutions is a premium developer of private label health and beauty 
+              Since 1995, The Right Solutions Corporation has been a premium developer of private label health and beauty 
               care products, offering complete product categories designed to compete 
               equivalently with the most popular national brands.
             </p>

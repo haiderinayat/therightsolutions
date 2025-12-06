@@ -49,8 +49,8 @@ const ContactCTA = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-primary-foreground mb-1">Email Us</p>
-                  <a href="mailto:info@therightsolutions.com" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                    info@therightsolutions.com
+                  <a href="mailto:customerservice@therightsolutions.ca" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                    customerservice@therightsolutions.ca
                   </a>
                 </div>
               </div>
@@ -61,8 +61,8 @@ const ContactCTA = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-primary-foreground mb-1">Call Us</p>
-                  <a href="tel:+1-800-555-0123" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                    +1 (800) 555-0123
+                  <a href="tel:+12894997832" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                    (289) 499-7832
                   </a>
                 </div>
               </div>
@@ -74,8 +74,8 @@ const ContactCTA = () => {
                 <div>
                   <p className="font-semibold text-primary-foreground mb-1">Visit Us</p>
                   <p className="text-primary-foreground/80">
-                    123 Manufacturing Drive<br />
-                    Toronto, ON, Canada
+                    100 Delta Park Blvd<br />
+                    Brampton, ON L6T 5E7
                   </p>
                 </div>
               </div>
