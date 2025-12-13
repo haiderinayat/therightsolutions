@@ -24,7 +24,7 @@ const Navbar = () => {
             <img 
               src={logo} 
               alt="The Right Solutions Corporation" 
-              className="h-16 md:h-20 w-auto"
+              className="h-48 md:h-64 w-auto"
             />
           </a>
 
