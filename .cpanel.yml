@@ -2,4 +2,8 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/therigh4/public_html/
-    - /bin/cp -R * $DEPLOYPATH
+    - export NODE_ENV=production
+    - npm install
+    - npm run build
+    - /bin/cp -R dist/* $DEPLOYPATH
+    - echo "Deployment complete to $DEPLOYPATH"
