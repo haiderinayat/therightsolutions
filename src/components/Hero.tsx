@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import heroProducts from "@/assets/hero-products.jpg";
 
 const stats = [
-  { value: "400%", label: "Growth in 3 Years", icon: TrendingUp },
+  { value: "300%", label: "Growth in 3 Years", icon: TrendingUp },
   { value: "50+", label: "Product Categories", icon: Award },
   { value: "100+", label: "Retail Partners", icon: Factory },
 ];
@@ -109,7 +109,7 @@ const Hero = () => {
                   <TrendingUp className="w-6 h-6 text-accent" />
                 </div>
                 <div>
-                  <p className="font-serif font-bold text-foreground">400% Growth</p>
+                  <p className="font-serif font-bold text-foreground">300% Growth</p>
                   <p className="text-sm text-muted-foreground">Last 3 Years</p>
                 </div>
               </div>
