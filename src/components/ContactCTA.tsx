@@ -32,8 +32,8 @@ const ContactCTA = () => {
                     <ArrowRight className="ml-2" size={20} />
                   </a>
                 </Button>
-                <Button variant="heroOutline" size="xl">
-                  View Our Catalog
+                <Button variant="heroOutline" size="xl" asChild>
+                  <a href="/TPMSCatalog.pdf" target="_blank" rel="noopener noreferrer">View Our Catalog</a>
                 </Button>
               </div>
             </motion.div>
