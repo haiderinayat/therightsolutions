@@ -53,8 +53,8 @@ const Hero = () => {
                 Partner With Us
                 <ArrowRight className="ml-2" size={20} />
               </Button>
-              <Button variant="outline" size="xl">
-                View Our Products
+              <Button variant="outline" size="xl" asChild>
+                <a href="/TPMSCatalog.pdf" target="_blank" rel="noopener noreferrer">View Our Products</a>
               </Button>
             </div>
 
