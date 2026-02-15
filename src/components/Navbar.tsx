@@ -39,8 +39,8 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <Button variant="default" size="default">
-              Get a Quote
+            <Button variant="default" size="default" asChild>
+              <a href="mailto:customerservice@therightsolutions.ca">Get in Touch</a>
             </Button>
           </div>
 
@@ -74,8 +74,8 @@ const Navbar = () => {
                     {link.name}
                   </a>
                 ))}
-                <Button variant="default" size="default" className="w-full mt-2">
-                  Get a Quote
+                <Button variant="default" size="default" className="w-full mt-2" asChild>
+                  <a href="mailto:customerservice@therightsolutions.ca">Get in Touch</a>
                 </Button>
               </div>
             </motion.div>
