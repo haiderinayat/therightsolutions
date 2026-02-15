@@ -26,9 +26,11 @@ const ContactCTA = () => {
                 Contact our team today to discuss your product requirements.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button variant="heroOutline" size="xl" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
-                  Get a Quote
-                  <ArrowRight className="ml-2" size={20} />
+                <Button variant="heroOutline" size="xl" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90" asChild>
+                  <a href="mailto:customerservice@therightsolutions.ca">
+                    Get in Touch
+                    <ArrowRight className="ml-2" size={20} />
+                  </a>
                 </Button>
                 <Button variant="heroOutline" size="xl">
                   View Our Catalog
