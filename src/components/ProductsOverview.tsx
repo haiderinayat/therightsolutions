@@ -29,7 +29,7 @@ const products = [
   },
   {
     icon: Baby,
-    title: "Baby Products & Oils",
+    title: "Baby Products",
     description: "Gentle, hypoallergenic formulations specially designed for delicate baby skin.",
   },
 ];
