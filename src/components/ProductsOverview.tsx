@@ -8,11 +8,6 @@ const products = [
     description: "Premium formulations for all hair types, from daily cleansing to specialty treatments.",
   },
   {
-    icon: Sparkles,
-    title: "Hair Gels & Styling",
-    description: "Professional-grade styling products with long-lasting hold and natural shine.",
-  },
-  {
     icon: Waves,
     title: "Shower Gels & Body Wash",
     description: "Luxurious cleansing experiences with moisturizing formulas and captivating fragrances.",
