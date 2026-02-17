@@ -2,27 +2,27 @@ import { motion } from "framer-motion";
 import { Users, Target, Cog, TrendingUp } from "lucide-react";
 
 const values = [
-  {
-    icon: Users,
-    title: "Partner-Focused",
-    description: "We maintain an extremely close relationship with our customer community, understanding your unique needs.",
-  },
-  {
-    icon: Target,
-    title: "Value Market Experts",
-    description: "Specialized expertise in serving the private label and value market segment with premium quality products.",
-  },
-  {
-    icon: Cog,
-    title: "Operational Excellence",
-    description: "Updated equipment and enhanced tank capacities ensure reliable operations for large order quantities.",
-  },
-  {
-    icon: TrendingUp,
-    title: "Proven Growth",
-    description: "Our 400% growth over three years demonstrates our commitment to partnership and quality.",
-  },
-];
+{
+  icon: Users,
+  title: "Partner-Focused",
+  description: "We maintain an extremely close relationship with our customer community, understanding your unique needs."
+},
+{
+  icon: Target,
+  title: "Value Market Experts",
+  description: "Specialized expertise in serving the private label and value market segment with premium quality products."
+},
+{
+  icon: Cog,
+  title: "Operational Excellence",
+  description: "Updated equipment and enhanced tank capacities ensure reliable operations for large order quantities."
+},
+{
+  icon: TrendingUp,
+  title: "Proven Growth",
+  description: "Our 400% growth over three years demonstrates our commitment to partnership and quality."
+}];
+
 
 const AboutSummary = () => {
   return (
@@ -39,8 +39,8 @@ const AboutSummary = () => {
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-          >
+            transition={{ duration: 0.8 }}>
+
             <span className="inline-block px-4 py-2 bg-primary-foreground/10 text-primary-foreground rounded-full text-sm font-medium mb-6">
               About Us
             </span>
@@ -60,7 +60,7 @@ const AboutSummary = () => {
             
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <p className="text-4xl font-serif font-bold">400%</p>
+                <p className="text-4xl font-serif font-bold">200%</p>
                 <p className="text-sm text-primary-foreground/70">Growth in 3 Years</p>
               </div>
               <div className="w-px h-16 bg-primary-foreground/20" />
@@ -81,27 +81,27 @@ const AboutSummary = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="grid grid-cols-2 gap-6"
-          >
-            {values.map((value, index) => (
-              <motion.div
-                key={value.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-primary-foreground/10 backdrop-blur-sm rounded-2xl p-6 border border-primary-foreground/10"
-              >
+            className="grid grid-cols-2 gap-6">
+
+            {values.map((value, index) =>
+            <motion.div
+              key={value.title}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: index * 0.1 }}
+              className="bg-primary-foreground/10 backdrop-blur-sm rounded-2xl p-6 border border-primary-foreground/10">
+
                 <value.icon className="w-8 h-8 mb-4 text-primary-foreground" />
                 <h3 className="font-serif font-semibold text-lg mb-2">{value.title}</h3>
                 <p className="text-sm text-primary-foreground/70">{value.description}</p>
               </motion.div>
-            ))}
+            )}
           </motion.div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default AboutSummary;
