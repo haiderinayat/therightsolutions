@@ -109,7 +109,7 @@ const Hero = () => {
                   <TrendingUp className="w-6 h-6 text-accent" />
                 </div>
                 <div>
-                  <p className="font-serif font-bold text-foreground">300% Growth</p>
+                  <p className="font-serif font-bold text-foreground">200% Growth</p>
                   <p className="text-sm text-muted-foreground">Last 3 Years</p>
                 </div>
               </div>
