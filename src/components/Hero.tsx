@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import heroProducts from "@/assets/hero-products.jpg";
 
 const stats = [
-{ value: "300%", label: "Growth in 3 Years", icon: TrendingUp },
+{ value: "200%", label: "Growth in 3 Years", icon: TrendingUp },
 { value: "50+", label: "Product Categories", icon: Award },
 { value: "20+", label: "Retail Partners", icon: Factory }];
 
