@@ -20,7 +20,7 @@ const values = [
 {
   icon: TrendingUp,
   title: "Proven Growth",
-  description: "Our 400% growth over three years demonstrates our commitment to partnership and quality."
+  description: "Our 200% growth over three years demonstrates our commitment to partnership and quality."
 }];
 
 
